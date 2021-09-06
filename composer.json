@@ -1,0 +1,17 @@
+{
+    "name": "onramplab/onr-phpcs-laravel",
+    "type": "phpcodesniffer-standard",
+    "description": "PHPCS libraries and configuration for Laravel",
+    "keywords": [
+        "phpcs",
+        "laravel"
+    ],
+    "homepage": "https://github.com/onramplab/onr-phpcs-laravel",
+    "license": "Unlicense",
+    "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
+        "sirbrillig/phpcs-import-detection": "^1.1",
+        "sirbrillig/phpcs-variable-analysis": "^2.6",
+        "squizlabs/php_codesniffer": "^3.4"
+    }
+}
