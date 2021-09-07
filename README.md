@@ -1,11 +1,11 @@
 
 # OnrampLab's PHPCS Configuration
 
-We use this package to set up a consistent PHPCS configuration across my Laravel projects. The ruleset is based on [@emielmolenaar ruleset](https://github.com/emielmolenaar/onr-phpcs-laravel).
+We use this package to set up a consistent PHPCS configuration across my Laravel projects. The ruleset is based on [@emielmolenaar ruleset](https://github.com/emielmolenaar/phpcs-laravel).
 
 If you wish to use this configuration in your project, install it using composer:
 
-`composer require --dev onramplab/phpcs-laravel`
+`composer require --dev onramplab/onr-phpcs-laravel`
 
 Afterwards, run `php vendor/bin/phpcs -i` to verify that `onr-phpcs-laravel` is listed as an installed ruleset.
 
