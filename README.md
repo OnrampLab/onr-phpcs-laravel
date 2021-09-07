@@ -5,7 +5,7 @@ We use this package to set up a consistent PHPCS configuration across my Laravel
 
 If you wish to use this configuration in your project, install it using composer:
 
-`composer require --dev onramplab/onr-phpcs-laravel`
+`composer require --dev onramplab/phpcs-laravel`
 
 Afterwards, run `php vendor/bin/phpcs -i` to verify that `onr-phpcs-laravel` is listed as an installed ruleset.
 
@@ -22,6 +22,13 @@ Or you can create a `phpcs.xml` file in your root folder with following example:
     <description>The Laravel Coding Standards</description>
 
     <rule ref="onr-phpcs-laravel"/>
+
+    <file>app</file>
+    <file>config</file>
+    <file>public</file>
+    <file>resources</file>
+    <file>routes</file>
+    <file>tests</file>
 
 </ruleset>
 ```

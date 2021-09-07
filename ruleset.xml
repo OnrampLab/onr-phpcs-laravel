@@ -77,15 +77,6 @@
         <exclude name="Generic.Strings.UnnecessaryStringConcat.Found"/>
     </rule>
 
-    <file>app</file>
-    <file>config</file>
-    <file>packages</file>
-    <file>public</file>
-    <file>resources</file>
-    <file>routes</file>
-    <file>tests</file>
-    <file>Modules</file>
-
     <exclude-pattern>*/database/*</exclude-pattern>
     <exclude-pattern>*/cache/*</exclude-pattern>
     <exclude-pattern>*/*.js</exclude-pattern>
