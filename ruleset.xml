@@ -58,15 +58,6 @@
     <rule ref="MySource.PHP.EvalObjectFactory"/>
     <rule ref="PSR1.Classes.ClassDeclaration"/>
     <rule ref="PSR1.Files.SideEffects"/>
-    <rule ref="PSR2.Classes.ClassDeclaration"/>
-    <rule ref="PSR2.Classes.PropertyDeclaration"/>
-    <rule ref="PSR2.ControlStructures.ControlStructureSpacing"/>
-    <rule ref="PSR2.ControlStructures.ElseIfDeclaration"/>
-    <rule ref="PSR2.ControlStructures.SwitchDeclaration"/>
-    <rule ref="PSR2.Files.EndFileNewline"/>
-    <rule ref="PSR2.Methods.MethodDeclaration"/>
-    <rule ref="PSR2.Namespaces.NamespaceDeclaration"/>
-    <rule ref="PSR2.Namespaces.UseDeclaration"/>
     <rule ref="Zend.Files.ClosingTag"/>
     <rule ref="PSR1">
         <exclude-pattern>*.php</exclude-pattern>
@@ -99,7 +90,5 @@
     <arg name="colors"/>
     <ini name="memory_limit" value="128M"/>
 
-    <rule ref="PSR2"/>
     <rule ref="PSR12"/>
-
 </ruleset>
